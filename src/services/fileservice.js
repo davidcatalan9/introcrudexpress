@@ -3,10 +3,17 @@ import path from "path";
 
 const dataFilePath = path.join(__dirname, "../data/data.json");
 
-const createFile = () => { 
+export const createFile = () => { 
     try {
-        fs.writeFile(dataFilePath, JSON.stringify(data))
+        await fs.writeFile(dataFilePath, JSON.stringify(data), 'utf-8')
     } catch (error) {
-        
+       console.log('Error general al crear o guardar archivo', error); 
     }
+}
+
+
+
+
+export const createData = async(data) => {
+    await createData(data)
 }
