@@ -12,8 +12,25 @@ export const createItem = async (req, res) => {
     });
   } catch (error) {
     res.status(500).json({
-      message: "Error creating data",
+      message: "Error al crear crea data",
       status: 500,
+      error,
+    });
+  }
+};
+
+export const getAllItems = async (req, res) => {
+  try {
+    const data = await getAllData();
+    res.status(200).json({
+      message: "data founded ok",
+      status: 200,
+      data,
+    });
+  } catch (error) {
+    res.status(404).json({
+      message: "Error al obtener data",
+      status: 404,
       error,
     });
   }

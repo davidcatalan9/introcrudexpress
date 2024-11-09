@@ -1,1 +1,14 @@
-{"nombre":"carolina","apellido":"molina","edad":23,"ocupacion":"programador"}
+[
+  {
+    "nombre": "maria",
+    "apellido": "osca",
+    "edad": 45,
+    "ocupacion": "sescret"
+  },
+  {
+    "nombre": "maria",
+    "apellido": "osca",
+    "edad": 45,
+    "ocupacion": "sescret"
+  }
+]
