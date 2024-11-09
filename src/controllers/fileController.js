@@ -1,4 +1,4 @@
-import { createData } from "../services/fileservice.js";
+import { createData, getAllData } from "../utils/fileUtils.js";
 
 export const createItem = async (req, res) => {
   try {

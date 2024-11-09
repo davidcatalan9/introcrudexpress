@@ -10,5 +10,17 @@
     "apellido": "osca",
     "edad": 45,
     "ocupacion": "sescret"
+  },
+  {
+    "nombre": "maria",
+    "apellido": "osca",
+    "edad": 45,
+    "ocupacion": "sescret"
+  },
+  {
+    "nombre": "juan",
+    "apellido": "perez",
+    "edad": 58,
+    "ocupacion": "sescret2024"
   }
 ]
